@@ -1,0 +1,34 @@
+/*Desktop*/
+@media only screen and (min-width: 1050px){
+  body {
+    background-color: darkblue;
+  }
+}
+
+/*Tablet poziom */
+@media only screen and (min-width: 950px) and (max-width: 1049px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/*Tablet pion*/
+@media only screen and (min-width: 750px) and (max-width: 949px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/*Tel poziom*/
+@media only screen and (min-width: 450px) and (max-width: 749px) {
+  body {
+    background-color: orange;
+  }
+}
+
+/*Tel pion*/
+@media only screen and (min-width: 300px) and (max-width: 449px){
+  body {
+    background-color: red;
+  }
+}
