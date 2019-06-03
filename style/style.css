@@ -1,34 +1,265 @@
-/*Desktop*/
-@media only screen and (min-width: 1050px){
-  body {
-    background-color: darkblue;
-  }
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color: white;
+	font-family:  "Exo 2","Helvetica Neue",Tahoma,Arial,"Hiragino Kaku Gothic ProN",Meiryo,"Microsoft YaHei","Apple SD Gothic Neo",sans-serif;
+	display: table-cell;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 500;
 }
-
+.img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/osu-logo-white.svg);
+}
+.img-bg {
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/osu-logo-triangles.svg);
+}
+.image {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 10px;
+	left: 10px;
+}
+#box {
+    background-image: url(../images/background.png);
+    background-size: 500px 500px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+	margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#triangle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-size: 640px 360px;
+    background-image: url(../images/triangles.png);
+}
+#gradient {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+    background-image: linear-gradient(rgba(68,17,136,.9),#418 37.5%,#418 50%,#222 0,#222);
+    background-size: 200% 200%;
+}
+a {
+	color: #ffffff;
+}
+span {
+  font-weight: 700;
+}
+  #obraz {
+	  width: 300px;
+  }
+  #logo {
+	  position: relative;
+	  top: 320px;
+	  width: 100%;
+	  height: 300px;
+  }
+  #logo_napis {
+	  font-weight: 800;
+	  font-size: 30pt;
+	  position: relative;
+	  letter-spacing: 2px;
+	  left: 0;
+	  width: 100%;
+	  height: 16%;
+	  top: 40%;
+	  color: fff;
+  }
+  #kol1 {
+	  position: relative;
+	  top: 350px;
+	  width: 30%;
+	  left: 2.5%;
+	  background: #444;
+	  height: auto;
+	  padding-bottom: 10px;
+	  float: left;
+	  z-index: 2;
+  }
+  #kol2 {
+	  position: relative;
+	  top: 350px;
+	  width: 30%;
+	  left: 5%;
+	  background: #444;
+	  height: auto;
+	  padding-bottom: 10px;
+	  float: left;
+	  z-index: 2;
+  }
+  #kol3 {
+	  position: relative;
+	  top: 350px;
+	  width: 30%;
+	  right: 2.5%;
+	  background: #444;
+	  height: auto;
+	  padding-bottom: 10px;
+	  float: right;
+	  z-index: 2;
+  }
+  #stopka {
+	  position: absolute;
+	  bottom: -470px;
+	  left: 0;
+	  width: 100%;
+	  height: 30px;
+	  line-height: 30px;
+	  background-color: rgba(0,0,0,.6);
+	  color: #ccc;
+	  z-index: 2;
+  }
+  #img_kol {
+	  padding-top: 10px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  max-width: calc(100% - 20px);
+  }
 /*Tablet poziom */
 @media only screen and (min-width: 950px) and (max-width: 1049px) {
   body {
-    background-color: blue;
+    font-size: 11px;
+  }
+  #obraz {
+	  width: 300px;
+  }
+  #stopka {
+	  clear: both;
   }
 }
-
 /*Tablet pion*/
 @media only screen and (min-width: 750px) and (max-width: 949px) {
+   .image {
+	width: 250px;
+	height: 250px;
+  }
+  #logo {
+	  top: 270px;
+	  height: 300px;
+  }
+  #kol1 {
+	  top: 300px;
+	  width: 47%;
+	  left: 2%;
+  }
+  #kol2 {
+	  top: 300px;
+	  width: 47%;
+	  left: 4%;
+  }
   body {
-    background-color: yellow;
+    font-size: 11px;
+  }
+  #obraz {
+	  width: 250px;
+  }
+  #stopka {
+	  
+	  clear: both;
+  }
+  #kol3 {
+	  display: none;
   }
 }
-
 /*Tel poziom*/
 @media only screen and (min-width: 450px) and (max-width: 749px) {
+   .image {
+	width: 150px;
+	height: 150px;
+}
+  #logo {
+	  top: 170px;
+	  height: 300px;
+  }
   body {
-    background-color: orange;
+    font-size: 10px;
+  }
+  #obraz {
+	  width: 150px;
+  }
+  #stopka {
+	  clear: both;
+  }
+   #logo {
+	  top: 170px;
+	  height: 240px;
+  }
+  #logo_napis {
+	  font-size: 18pt;
+	  height: 16%;
+	  top: 40%;
+  }
+  #kol1 {
+	  top: 180px;
+	  width: calc(100% - 20px);
+	  left: 10px;
+	  vertical-align: baseline;
+  }
+  #kol2 {
+	  top: 300px;
+	  width: 47%;
+	  left: 4%;
+  }
+  #img_kol {
+	  padding-left: 10px;
+	  padding-top: 10px;
+	  padding-right: none;
+	  float: left;
+	  vertical-align: baseline;
+	  max-width: calc(50% - 20px);
   }
 }
-
 /*Tel pion*/
 @media only screen and (min-width: 300px) and (max-width: 449px){
+   .image {
+	width: 100px;
+	height: 100px;
+}
+  #logo {
+	  top: 120px;
+	  height: 300px;
+  }
   body {
-    background-color: red;
+    font-size: 9px;
+  }
+  #obraz {
+	  width: 100px;
+  }
+  #stopka {
+	  clear: both;
+  }
+   #logo {
+	  top: 120px;
+	  height: 120px;
+  }
+  #logo_napis {
+	  font-size: 10pt;
+	  height: 16%;
+	  top: 40%;
   }
 }
