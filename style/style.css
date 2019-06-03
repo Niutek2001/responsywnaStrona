@@ -146,6 +146,7 @@ span {
 @media only screen and (min-width: 950px) and (max-width: 1049px) {
   body {
     font-size: 11px;
+    height: 950px;
   }
   #obraz {
 	  width: 300px;
@@ -176,6 +177,7 @@ span {
   }
   body {
     font-size: 11px;
+    height: 970px;
   }
   #obraz {
 	  width: 250px;
@@ -199,7 +201,7 @@ span {
   }	
   body {
   	  font-size: 10px;
-	  height: 1120px;
+	  height: 1110px;
   }
   #obraz {
 	  width: 150px;
@@ -262,6 +264,7 @@ span {
   }
   body {
     font-size: 9px;
+    height: 1040px;
   }
   #obraz {
 	  width: 100px;
