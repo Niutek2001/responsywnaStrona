@@ -37,8 +37,8 @@ body {
 }
 .arrow {
 	position: absolute;
-	height: 20%;
-	top: 40%;
+	height: 100%;
+	width: 100%;
 	opacity: 0.5;
 }
 #Left {
@@ -48,7 +48,10 @@ body {
 	right:5px
 }
 #podstrona {
-	
+	position: absolute;
+	height: 30%;
+	top: 35%;
+	width: auto;
 }
 #box {
     background-image: url(../images/background.png);
