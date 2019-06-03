@@ -194,11 +194,11 @@ span {
 	height: 150px;
 }
   #logo {
-	  top: 170px;
-	  height: 300px;
-  }
+   	 top: 170px;
+    	height: 300px;
+  }	
   body {
-    font-size: 10px;
+  	  font-size: 10px;
   }
   #obraz {
 	  width: 150px;
@@ -227,11 +227,19 @@ span {
 	  width: calc(100% - 20px);
 	  left: 10px;
 	  vertical-align: baseline;
+	  padding-bottom: 10px;
   }
   #kol2 {
-	  top: 300px;
-	  width: 47%;
-	  left: 4%;
+	  top: 0px;
+	  width: calc(100% - 20px);
+	  left: 10px;
+	  vertical-align: baseline
+  }
+  #kol3{
+	  top: 0px;
+	  width: calc(100% - 20px);
+	  left: 10px;
+	  vertical-align: baseline
   }
   #img_kol {
 	  padding-left: 10px;
