@@ -35,6 +35,21 @@ body {
 	top: 10px;
 	left: 10px;
 }
+.arrow {
+	position: absolute;
+	height: 20%;
+	top: 40%;
+	opacity: 0.5;
+}
+#Left {
+	left:5px;
+}
+#Right {
+	right:5px
+}
+#podstrona {
+	
+}
 #box {
     background-image: url(../images/background.png);
     background-size: 500px 500px;
