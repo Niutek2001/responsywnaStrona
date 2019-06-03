@@ -11,7 +11,7 @@ body {
 	height: 1000px;
 }
 .img {
-    position: absolute;
+    position`: absolute;
     left: 0;
     top: 0;
     height: 100%;
@@ -278,4 +278,29 @@ span {
 	  height: 16%;
 	  top: 40%;
   }
+  #kol1 {
+	  top: 180px;
+	  width: calc(100% - 20px);
+	  left: 10px;
+	  vertical-align: baseline;
+  }
+  #kol2 {
+	  top: 190px;
+	  width: calc(100% - 20px);
+	  left: 10px;
+	  vertical-align: baseline
+  }
+  #kol3{
+	  top: 200px;
+	  width: calc(100% - 20px);
+	  left: -10px;
+	  vertical-align: baseline
+  }
+#img_kol {
+	  padding: 10px;
+	  max-width: calc(100% - 20px);
+  }
+#text {
+	display: none;
+}
 }
