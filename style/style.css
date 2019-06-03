@@ -198,7 +198,8 @@ span {
     	height: 300px;
   }	
   body {
-  	  font-size: 10px;
+  	  font-size: 10px;\
+	  height: 1120px;
   }
   #obraz {
 	  width: 150px;
