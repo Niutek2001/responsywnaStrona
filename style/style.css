@@ -216,8 +216,11 @@ span {
 	  top: 40%;
   }
 #text {
-	height: 100px;
-	top: calc(50% - 50px);
+	position: absolute;
+	height: 52px;
+	width: calc(50% - 20px);
+	right: 15px;
+	top: calc(50% - 26px);
 }
   #kol1 {
 	  top: 180px;
