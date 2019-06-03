@@ -45,16 +45,16 @@ body {
 #podstronaR {
 	position: absolute;
 	height: 40px;
-	top: calc(50% - 20px);
+	top: calc(50% - 34px);
 	width: 40px;
-	right:5px
+	right: 10px
 }
 #podstronaL {
 	position: absolute;
 	height: 40px;
-	top: calc(50% - 20px);
+	top: calc(50% - 34px);
 	width: 40px;
-	left:5px;
+	left: 10px;
 }
 #box {
     background-image: url(../images/background.png);
