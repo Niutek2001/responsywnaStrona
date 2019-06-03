@@ -39,19 +39,22 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
+	font-size: 38px;
+	opacity: 0.6;
 }
-#Left {
-	left:5px;
-}
-#Right {
+#podstronaR {
+	position: absolute;
+	height: 40px;
+	top: calc(50% - 20px);
+	width: 40px;
 	right:5px
 }
-#podstrona {
+#podstronaL {
 	position: absolute;
-	height: 30%;
-	top: 35%;
-	width: auto;
+	height: 40px;
+	top: calc(50% - 20px);
+	width: 40px;
+	left:5px;
 }
 #box {
     background-image: url(../images/background.png);
