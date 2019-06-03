@@ -227,18 +227,17 @@ span {
 	  width: calc(100% - 20px);
 	  left: 10px;
 	  vertical-align: baseline;
-	  padding-bottom: 10px;
   }
   #kol2 {
-	  top: 0px;
+	  top: 190px;
 	  width: calc(100% - 20px);
 	  left: 10px;
 	  vertical-align: baseline
   }
   #kol3{
-	  top: 0px;
+	  top: 200px;
 	  width: calc(100% - 20px);
-	  left: 10px;
+	  left: -10px;
 	  vertical-align: baseline
   }
   #img_kol {
